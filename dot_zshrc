@@ -9,6 +9,9 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 
+# EDITOR
+export EDITOR="nvim"
+
 # COMPINIT
 autoload -Uz compinit
 compinit
