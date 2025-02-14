@@ -26,8 +26,8 @@ source ~/.p10k.zsh
 
 # HISTORY
 HISTFILE=$HOME/.zsh_history
-SAVEHIST=1000
-HISTSIZE=999
+SAVEHIST=5000
+HISTSIZE=2000
 setopt share_history
 setopt hist_ignore_all_dups
 setopt hist_expire_dups_first
