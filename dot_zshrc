@@ -26,8 +26,8 @@ source ~/.p10k.zsh
 
 # HISTORY
 HISTFILE=$HOME/.zsh_history
-SAVEHIST=5000
-HISTSIZE=2000
+SAVEHIST=1000
+HISTSIZE=999
 setopt share_history
 setopt hist_ignore_all_dups
 setopt hist_expire_dups_first
@@ -128,5 +128,12 @@ alias kgnol='_kgnol'
 
 # CONDA
 #eval "$(conda "shell.$(basename "${SHELL}")" hook)"
+
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/dmitriiivashko/.lmstudio/bin"
+
+# Added by Windsurf
+export PATH="/Users/dmitriiivashko/.codeium/windsurf/bin:$PATH"
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
