@@ -131,9 +131,9 @@ alias kgnol='_kgnol'
 
 
 # Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/dmitriiivashko/.lmstudio/bin"
+export PATH="$PATH:$HOME/.lmstudio/bin"
 
 # Added by Windsurf
-export PATH="/Users/dmitriiivashko/.codeium/windsurf/bin:$PATH"
+export PATH="$PATH:$HOME/.codeium/windsurf/bin"
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
