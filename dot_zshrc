@@ -137,3 +137,8 @@ export PATH="$PATH:$HOME/.lmstudio/bin"
 export PATH="$PATH:$HOME/.codeium/windsurf/bin"
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/dmitriiivashko/.lmstudio/bin"
+# End of LM Studio CLI section
+
