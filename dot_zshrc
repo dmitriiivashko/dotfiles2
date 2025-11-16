@@ -125,13 +125,8 @@ function _kgnol() {
 }
 alias kgnol='_kgnol'
 
-
 # CONDA
 #eval "$(conda "shell.$(basename "${SHELL}")" hook)"
-
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:$HOME/.lmstudio/bin"
 
 # Added by Windsurf
 export PATH="$PATH:$HOME/.codeium/windsurf/bin"
@@ -139,6 +134,6 @@ export PATH="$PATH:$HOME/.codeium/windsurf/bin"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/dmitriiivashko/.lmstudio/bin"
+export PATH="$PATH:$HOME/.lmstudio/bin"
 # End of LM Studio CLI section
 
