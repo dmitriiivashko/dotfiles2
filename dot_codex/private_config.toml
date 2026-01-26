@@ -1,11 +1,12 @@
 model = "gpt-5.2-codex"
 model_reasoning_effort = "xhigh"
 sandbox_mode = "workspace-write"
-approval_policy = "untrusted"
+approval_policy = "on-request"
 
 [features]
 web_search_request = true
 view_image_tool = true
+steer = true
 
 [sandbox_workspace_write]
 exclude_tmpdir_env_var = false  # allow $TMPDIR
@@ -17,4 +18,5 @@ network_access = true           # opt in to outbound network
 
 [notice.model_migrations]
 "gpt-5.1-codex-max" = "gpt-5.2-codex"
+"gpt-5.2" = "gpt-5.2-codex"
 
